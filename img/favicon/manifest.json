@@ -1,0 +1,13 @@
+{
+    "name": "",
+    "icons": [
+        {
+            "src": "http://jamesappleby.me/img/favicon/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#6600FF",
+    "background_color": "#6600FF",
+    "display": "standalone"
+}

@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url("../fonts/Graphik-Light.eot");
+  src:
+  url("../fonts/Graphik-Light.ttf") format("truetype"),
+  url("../fonts/Graphik-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url("../fonts/Graphik-Regular.eot");
+  src:
+  url("../fonts/Graphik-Regular.ttf") format("truetype"),
+  url("../fonts/Graphik-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url("../fonts/Graphik-Medium.eot");
+  src:
+  url("../fonts/Graphik-Medium.ttf") format("truetype"),
+  url("../fonts/Graphik-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+body {
+  background-color: #6600FF;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 400;
+  padding: 5rem 0;
+}
+
+.h1, .p, .a__button {
+  font-family: 'Graphik', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 10rem;
+  letter-spacing: -4px;
+  line-height: .9;
+  margin-bottom: 4rem;
+}
+
+.p {
+  font-size: 2rem;
+  letter-spacing: -.8px;
+  margin-bottom: 5rem;
+  line-height: 3rem;
+}
+
+.nav__links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__links ul li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+.nav__links ul li:last-child {
+  margin-right: 0;
+}
+
+.a__button,
+.a__social {
+  color: #FFF;
+  border: 5px solid #FFF;
+  height: 74px;
+  vertical-align: middle;
+  transition: all .2s ease;
+}
+
+.a__button:hover,
+.a__button:active,
+.a__button:focus,
+.a__social:hover,
+.a__social:active,
+.a__social:focus {
+  background: #FFF;
+  color: #6600FF;
+}
+
+.a__button {
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: -0.8px;
+  line-height: 3rem;
+  padding: 1rem 1.5rem;
+}
+
+.a__social {
+  font-size: 3rem;
+  padding: .25rem 1rem;
+  line-height: 3rem;
+}
+
+@media (max-width: 639px) {
+  body {
+    padding: 3rem .5rem;
+  }
+
+  .h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    line-height: 2rem;
+  }
+
+  .a__button,
+  .a__social {
+    display: block;
+    text-align: center;
+    height: initial;
+  }
+
+  .nav__links ul li {
+    margin-right: 0;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .a__button {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .a__social {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 1023px) {
+
+}
