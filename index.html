@@ -27,29 +27,118 @@
     </script>
   </head>
   <body>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="small-12 large-7 cell">
-          <h1 class="h1">James Appleby</h1>
-          <p class="p">Hi there. I’m a software product designer located in Scottsdale, Arizona.</p>
-        </div>
-      </div>
+  	<header>
+	    <div class="grid-container">
+	      <div class="grid-x grid-padding-x">
+	        <div class="small-12 large-6 cell">
+	          <h1 class="h1">James Appleby</h1>
+	          <p class="p__intro">Hi there. I’m a software product designer based in Scottsdale, Arizona.</p>
+	        </div>
+	      </div>
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-6 cell">
-          <nav class="nav__links">
-            <ul>
-              <li><a href="mailto:jamesjappleby@icloud.com" class="a__button">Email Me</a></li>
-              <li><a href="https://www.linkedin.com/in/jamesjappleby/" target="_blank" class="a__social"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="http://twitter.com/jamesjappleby" target="_blank" class="a__social"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="http://instagram.com/jamesjappleby" target="_blank" class="a__social"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+	      <div class="grid-x grid-padding-x">
+	        <div class="large-6 cell">
+	          <nav class="nav__links">
+	            <ul>
+	              <li><a href="mailto:jamesjappleby@icloud.com" class="a__button">Email Me</a></li>
+	              <li><a href="https://www.linkedin.com/in/jamesjappleby/" target="_blank" class="a__social"><i class="fa fa-linkedin"></i></a></li>
+	              <li><a href="http://twitter.com/jamesjappleby" target="_blank" class="a__social"><i class="fa fa-twitter"></i></a></li>
+	              <li><a href="http://instagram.com/jamesjappleby" target="_blank" class="a__social"><i class="fa fa-instagram"></i></a></li>
+	            </ul>
+	          </nav>
+	        </div>
+	      </div>
 
-      </div>
-    </div>
+	  	</div>
+  	</header>
+
+  	<section class="section">
+	    <div class="grid-container">
+	    	<div class="grid-x grid-padding-x">
+	    		<h2 class="h2 text-center cell">Work</h2>
+      		</div>
+	    	<ul class="tabs" data-tabs id="work">
+			  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Product</a></li>
+			  <li class="tabs-title"><a href="#panel2">Web</a></li>
+			</ul>
+
+			<div class="tabs-content" data-tabs-content="work">
+			  <div class="tabs-panel is-active" id="panel1">
+		    	<div class="grid-x grid-padding-x">
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Automated Interview Scheduling</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Rapid Candidate Engagement</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Automatic Candidate Screening</h3>
+		    			</a>
+		    		</div>
+		    	</div>
+		    	<div class="grid-x grid-padding-x">
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Personalized Candidate Knowledge Base</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Conversational Interface</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Public Company Profiles</h3>
+		    			</a>
+		    		</div>
+		    	</div>
+			  </div>
+			  <div class="tabs-panel" id="panel2">
+
+		    	<div class="grid-x grid-padding-x">
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Paradox Marketing</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Webster Bank Careers</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Recruiting.com Marketing</h3>
+		    			</a>
+		    		</div>
+		    	</div>
+		    	<div class="grid-x grid-padding-x">
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Saaty Photography</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Harris Health System Careers</h3>
+		    			</a>
+		    		</div>
+		    		<div class="cell large-4 medium-6">
+		    			<a class="project">
+		    				<h3 class="h3 text-center">Email Marketing</h3>
+		    			</a>
+		    		</div>
+		    	</div>
+			  </div>
+			</div>
+	    </div>
+  	</section>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
