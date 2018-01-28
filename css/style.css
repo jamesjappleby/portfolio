@@ -29,15 +29,18 @@
 }
 
 body {
-  background-color: #FFF;
+  background-color: #6600FF;
   font-size: 16px;
   color: #FFF;
   font-weight: 400;
 }
 
 header {
-  background-color: #6600FF;
+  background: url("../img/hero.jpg") #6600FF;
+  background-size: cover;
+  background-position: center center;
   padding: 5rem 0 7rem 0;
+  height: 100vh;
 }
 
 .h1, .p, .h2, .h3, .a__button {
@@ -183,19 +186,22 @@ header {
 }
 
 @media (max-width: 639px) {
-  body {
-    padding: 3rem .5rem;
+  header {
+    padding: 5rem .75rem;
+    background-position: center left;
+    overflow-y: hidden;
   }
 
   .h1 {
-    font-size: 4rem;
+    font-size: 2.75rem;
     margin-bottom: 1.5rem;
+    letter-spacing: -1px;
   }
 
-  .p {
-    font-size: 1.5rem;
+  .p__intro {
+    font-size: 1.75rem;
     margin-bottom: 3rem;
-    line-height: 2rem;
+    line-height: 1.2;
   }
 
   .a__button,
@@ -223,5 +229,13 @@ header {
 }
 
 @media (max-width: 1023px) {
+  header {
+    height: initial;
+  }
+
+  .h1 {
+    font-size: 6rem;
+    letter-spacing: -2px;
+  }
 
 }
